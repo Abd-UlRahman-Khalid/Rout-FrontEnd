@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Data</title>
+</head>
+<body>
+  <form style="background-color: #a32b2d;">
+    <fieldset>
+      <legend  style=" background-color: #4b79a1;">Personal Data</legend><br>
+
+        <fieldset style="background-color: #d9a51e;">
+          <legend style="width: 100
+          px; padding: 40px 2px; background-color: #6395ea;
+          
+          
+          ">Your Name</legend>
+
+          <label for="fname">First name:</label>
+          <input type="text" placeholder="Enter Your First Name" id="fname" name="fname">
+          
+          <br><br>
+          
+          <label for="lname">Last name:</label>
+          <input type="text" placeholder="Enter Your Last Name" id="lname" name="lname">
+          
+          <br><br>
+
+        </fieldset>
+      
+      <br><br>
+      
+      <label for="Phone">your phone:</label>
+         <input type="tel" placeholder="Enter Your Phone Number" id="phone" name="phone"><br><br>   
+      
+      <label for="email">Email:</label>
+         <input type="email" placeholder="Enter Your E-mail" id="email" name="email"><br><br>
+
+        <label for="PassW">Password:</label>
+        <input type="password" placeholder="Enter Your Password" id="PassW" name="Password"><br><br>
+        <label for="PassW">re- Password:</label>
+        <input type="password" placeholder="Re-Enter Your Password" id="PassW" name="Password"><br><br>
+
+        <p>choose your gender:</p>
+        <input type="radio" id="male" value="male" name="gender">
+        <label for="male">Male</label><br>
+
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label><br>
+
+        <br><br>
+
+        <input type="checkbox" name="Education" id="student" value="student">
+        <label for="student">Student</label><br>
+
+        <input type="checkbox" name="Education" id="Graduate" value="Graduate">
+        <label for="Graduate">Graduate</label><br><br>
+
+        <select name="select" id="group">
+          
+          <optgroup label="Private associations"></optgroup>
+            <option value="AUC" selected>AUC</option>
+            <option value="MSA" >Modern Science & Art University</option>
+            <option value="MUST" >Misr  University</option>
+          </optgroup>
+
+          <optgroup label="Governmental associations"></optgroup>
+            <option value="CU" >Cairo University</option>
+            <option value="ASU" >Ain Shams University</option>
+            <option value="AU" >Alexandria University</option>
+          </optgroup>
+        </select><br>
+
+
+        <input type="image" src="submit.png" alt="submit" width="100">
+    </fieldset>
+  </form>
+</body>
+</html>
